@@ -111,4 +111,70 @@ main{
 .about-items{
     display: flex;
     justify-content: space-around;
-}s
+}
+.text-center{
+    text-align: center;
+}
+.skills-container{
+    display: flex;
+    grid:54px;
+    
+}
+.skill{
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+    border-radius: 5px;
+    padding: 30px;
+    gap: 50px;
+    
+   
+}
+ .skill>img{
+    width: 30px;
+    height: 30px;
+}
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+.summury-items{
+    display: flex;
+    gap: 30px;
+}
+.summury-title{
+    text-align: center;
+}
+.button-cv{
+    margin-top: 50px;
+}
+.last{
+    background-color: #FFF8F3;
+    display: flex;
+    gap: 100px;
+    margin-top: 100px;
+    padding: 130px 200px;
+}
+.connect {
+    width: 100%;
+    max-width: 600px; 
+}
+.icon{
+    display: flex;
+   
+}
+.connect textarea, input [type="text"] ,.connect input[type="email"]{
+    display: block;
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    padding: 58px 35px;
+    font-size: ;
+    color: #757575;
+    border-radius: 5px;
+    background-color: #FFF;
+    border: 0;
+    width:500px ;
+    height: 500px;
+}
+ .icon>img{
+    width: 30px;
+    height: 30px;
+}
